@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Finder</title>
+
+    <link rel="icon" href="/images/icon/search_4292323.png" type="image/png" sizes="32x32">
+
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <section class="hero" aria-label="Featured property search hero">
+            <div class="hero__overlay"></div>
+            <div class="hero__content">
+                <p class="eyebrow">Find your dream home</p>
+                <h1>Search premium homes in your favorite city.</h1>
+                <p class="lead">Use the filters below to browse luxury villas, apartments, and family homes.</p>
+
+                <form class="search-card" action="listings.html" method="get">
+                    <label>
+                        <span>Location</span>
+                        <select name="location" aria-label="Location">
+                            <option value="">Any location</option>
+                            <option value="Accra">Accra</option>
+                            <option value="Kumasi">Kumasi</option>
+                            <option value="Takoradi">Takoradi</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        <span>Max Price</span>
+                        <select name="price" aria-label="Price range">
+                            <option value="">Any price</option>
+                            <option value="100000">Up to $100,000</option>
+                            <option value="250000">Up to $250,000</option>
+                            <option value="500000">Up to $500,000</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        <span>Property Type</span>
+                        <select name="type" aria-label="Property type">
+                            <option value="">Any type</option>
+                            <option value="Apartment">Apartment</option>
+                            <option value="House">House</option>
+                            <option value="Villa">Villa</option>
+                        </select>
+                    </label>
+
+                    <button type="submit">Search Property</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="featured-home" aria-label="Featured property listings">
+            <div class="featured-home__intro">
+                <p class="eyebrow">Featured listings</p>
+                <h1>Discover standout homes chosen for you.</h1>
+                <p class="lead">Browse a curated selection of the latest properties from our listings data.</p>
+            </div>
+
+            <div id="featured-listings" class="featured-grid" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
