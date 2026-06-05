@@ -1,0 +1,165 @@
+[
+    {
+        "id": 1,
+        "name": "2 Bedroom Apartment in City Center",
+        "location": "Accra, Ghana",
+        "price": 450000,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "images": "images/house/2bedroom Accra.jpg",
+        "description": "A modern 2 bedroom apartment located in the heart of Accra. This property features spacious living areas, a fully equipped kitchen, and stunning city views. Perfect for urban living with easy access to amenities and transportation."
+        },
+
+    {
+        "id": 2,        
+        "name": "4 Bedroom House in Suburbs",
+        "location": "Kumasi, Ghana",
+        "price": 150000,
+        "bedrooms": 4,  
+        "bathrooms": 3,
+        "images": "images/house/best-modern-home.jpg",
+        "description": "A spacious 4 bedroom house located in the suburbs of Kumasi. This property offers a peaceful retreat with modern amenities and a beautiful garden."
+    },
+
+    {
+        "id": 3,        
+        "name": "3 Bedroom House in Rural Area",
+        "location": "Takoradi, Ghana",
+        "price": 200000,
+        "bedrooms": 3,  
+        "bathrooms": 2,
+        "images": "images/house/luxury-house.jpg",
+        "description": "A charming 3 bedroom house situated in the serene environment of Takoradi. This property provides a tranquil living experience with a well-maintained garden and close proximity to local facilities."
+    },
+
+    {
+        "id": 4,        
+        "name": "5 Bedroom Villa with Pool",
+        "location": "Tema, Ghana",
+        "price": 250000,
+        "bedrooms": 6,  
+        "bathrooms": 5,
+        "images": "images/house/dream-house.jpg",
+        "description": "A luxurious 5 bedroom villa featuring a private pool and stunning views. Perfect for entertaining guests and enjoying a relaxing retreat."
+    },
+
+    {
+        "id": 5,        
+        "name": "6 Bedroom Mansion with Garden",
+        "location": "Kumasi, Ghana",
+        "price": 300000,
+        "bedrooms": 7,  
+        "bathrooms": 6,
+        "images": "images/house/modern-villa2.jpg",
+        "description": "A magnificent 6 bedroom mansion with a beautiful garden. This property offers luxury living with all modern amenities."
+    },
+
+    {
+        "id": 6,        
+        "name": "Taadi Condominium with 7 Bedrooms",
+        "location": "Takoradi, Ghana",
+        "price": 350000,
+        "bedrooms": 8,  
+        "bathrooms": 7,
+        "images": "images/house/taadi-condo-house.jpg",
+        "description": "A modern 7 bedroom condominium located in the heart of Takoradi. This property features spacious living areas, a fully equipped kitchen, and stunning city views. Perfect for urban living with easy access to amenities and transportation."
+    },
+
+    {
+        "id": 7,        
+        "name": "Luxury House with Swimming Pool",
+        "location": "Kumasi, Ghana",
+        "price": 400000,
+        "bedrooms": 9,  
+        "bathrooms": 8,
+        "images": "images/house/house-with-swimmingpool.jpg",
+        "description": "A stunning luxury house featuring a private swimming pool and all modern amenities."
+    },
+
+    {
+        "id": 8,        
+        "name": "Villa of Pure Luxury",
+        "location": "Cantonments, Accra",
+        "price": 450000,
+        "bedrooms": 4,  
+        "bathrooms": 3,
+        "images": "images/house/villa-of-pure-luxury.jpg",
+        "description": "A stunning villa offering pure luxury with all modern amenities."
+    },
+
+    {
+        "id": 9,        
+        "name": "Takoradi Modern Apartment",
+        "location": "Takoradi, Ghana",
+        "price": 500000,
+        "bedrooms": 2,  
+        "bathrooms": 2,
+        "images": "images/house/takoradi-modern-apartment.jpg",
+        "description": "A modern apartment located in the heart of Takoradi. This property features spacious living areas, a fully equipped kitchen, and stunning city views."
+    },
+    {
+        "id": 10,        
+        "name": "Single Family Home with Garden",
+        "location": "Kumasi, Ghana",
+        "price": 550000,
+        "bedrooms": 12,  
+        "bathrooms": 11,
+        "images": "images/house/single-room-house.jpg",
+        "description": "A beautiful single-family home with a spacious garden. Perfect for families seeking a peaceful retreat."
+    },
+
+    {
+        "id": 11,        
+        "name": "Taadi Luxury Villa",
+        "location": "Takoradi, Ghana",
+        "price": 600000,
+        "bedrooms": 13,  
+        "bathrooms": 12,
+        "images": "images/house/modern-black-luxury-villa.jpg",
+        "description": "A luxurious villa located in the heart of Takoradi. This property features modern amenities and stunning views."
+    },
+
+    {
+        "id": 12,        
+        "name": "6 Bedroom Mansion",
+        "location": "Accra, Ghana",
+        "price": 650000,
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "images": "images/house/mansion.jpg",
+        "description": "A magnificent 6 bedroom mansion with modern amenities."
+    },
+
+    {
+        "id": 13,        
+        "name": "2 Bedroom House",
+        "location": "Accra, Ghana",
+        "price": 70000,
+        "bedrooms": 2,  
+        "bathrooms": 2,
+        "images": "images/house/2-bedroom-house.jpg",
+        "description": "A cozy 2 bedroom house perfect for a small family."
+    },
+
+    {
+        "id": 14,        
+        "name": "Taadi Luxury Apartment",
+        "location": "Takoradi, Ghana",
+        "price": 750000,
+        "bedrooms": 6,  
+        "bathrooms": 12,
+        "images": "images/house/kumasi-town-house2.jpg",
+        "description": "A luxurious apartment located in the heart of Takoradi. This property features modern amenities and stunning views."
+    },
+
+    {
+        "id": 15,        
+        "name": "Kumasi Townhouse with 17 Bedrooms",
+        "location": "Kumasi, Ghana",
+        "price": 800000,
+        "bedrooms": 17,  
+        "bathrooms": 16,
+        "images": "images/house/kumasi-townhouse.jpg",
+        "description": "A modern townhouse located in the heart of Kumasi. This property features spacious living areas, a fully equipped kitchen, and stunning city views. Perfect for urban living with easy access to amenities and transportation."
+    }
+]
