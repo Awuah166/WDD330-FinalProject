@@ -1,0 +1,16 @@
+{
+  "name": "real-estate-finder",
+  "version": "1.0.0",
+  "description": "Real Estate Finder - WDD330 Final Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step needed'"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
