@@ -11,6 +11,7 @@ async function loadPartial(elementId, filePath) {
 }
 
 import { loadFeaturedListings, loadListingsPage, loadFavoritesPage } from './PropertyList.js';
+import { loadPropertyPage } from './PropertyDetails.js';
 
 async function initLayout() {
   try {
@@ -24,7 +25,9 @@ async function initLayout() {
       yearSpan.textContent = new Date().getFullYear();
     }
 
-    if (window.location.pathname.includes('listings.html')) {
+    if (window.location.pathname.includes('property.html')) {
+      await loadPropertyPage();
+    } else if (window.location.pathname.includes('listings.html')) {
       await loadListingsPage();
     } else if (window.location.pathname.includes('favourites.html')) {
       await loadFavoritesPage();
