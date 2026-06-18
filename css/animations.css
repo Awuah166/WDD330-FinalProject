@@ -119,6 +119,29 @@
   }
 }
 
+@keyframes favoritePop {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.18);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes favoriteCardIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 /* ========================================
    HOMEPAGE HERO SECTION ANIMATIONS
    ======================================== */
@@ -252,6 +275,56 @@
 /* ========================================
    CARD ANIMATIONS (hover effects)
    ======================================== */
+
+.property-card {
+  transition:
+    transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.property-card:hover,
+.property-card:focus-within {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(245, 158, 11, 0.45);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+}
+
+.property-card img {
+  transition: transform 0.35s ease;
+}
+
+.property-card:hover img,
+.property-card:focus-within img {
+  transform: scale(1.04);
+}
+
+.property-card:hover .property-card__footer a,
+.property-card:focus-within .property-card__footer a {
+  color: #d97706;
+}
+
+.favorite-btn {
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.favorite-btn:hover,
+.favorite-btn:focus-visible {
+  transform: scale(1.08);
+  box-shadow: 0 8px 18px rgba(245, 158, 11, 0.25);
+}
+
+.favorite-btn.is-active {
+  animation: favoritePop 0.35s ease;
+}
+
+#favorites-grid .property-card {
+  animation: favoriteCardIn 0.45s ease both;
+}
 
 .featured-grid li:hover,
 .featured-grid [role="listitem"]:hover {
